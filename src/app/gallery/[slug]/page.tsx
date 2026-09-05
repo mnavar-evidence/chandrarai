@@ -68,7 +68,7 @@ export default async function ArtworkPage({ params }: Props) {
           </div>
           {artwork.availability === "available" && (
             <a
-              href={`mailto:hello@chandrarai.art?subject=${encodeURIComponent(
+              href={`mailto:chandrarai922@gmail.com?subject=${encodeURIComponent(
                 `Inquiry: ${artwork.title}`
               )}`}
               className="btn-primary mt-8"

@@ -25,7 +25,7 @@ export default async function CoursePage({ params }: Props) {
   const course = getCourse(slug);
   if (!course) notFound();
 
-  const enrollMailto = `mailto:hello@chandrarai.art?subject=${encodeURIComponent(
+  const enrollMailto = `mailto:chandrarai922@gmail.com?subject=${encodeURIComponent(
     `Enroll: ${course.title}`
   )}&body=${encodeURIComponent(
     `Hi,\n\nI would like to enroll in ${course.title}.\n\nThanks!`

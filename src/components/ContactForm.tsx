@@ -33,7 +33,7 @@ export default function ContactForm() {
     const body = encodeURIComponent(
       `Name: ${name}\nEmail: ${email}\n\n${message}`
     );
-    const mailto = `mailto:hello@chandrarai.art?subject=${subject}&body=${body}`;
+    const mailto = `mailto:chandrarai922@gmail.com?subject=${subject}&body=${body}`;
 
     // Stub for local testing — also opens mailto when available
     console.log("[Chandrarai contact stub]", { name, email, message });
@@ -110,7 +110,7 @@ export default function ContactForm() {
       {status === "sent" && (
         <p className="text-sm text-sage" role="status">
           Opening your email client… If nothing opens, write to
-          hello@chandrarai.art directly.
+          chandrarai922@gmail.com directly.
         </p>
       )}
     </form>

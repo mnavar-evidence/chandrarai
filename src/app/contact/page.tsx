@@ -25,10 +25,10 @@ export default function ContactPage() {
             <li>
               <span className="eyebrow block">Email</span>
               <a
-                href="mailto:hello@chandrarai.art"
+                href="mailto:chandrarai922@gmail.com"
                 className="mt-1 inline-block text-base text-ink hover:underline"
               >
-                hello@chandrarai.art
+                chandrarai922@gmail.com
               </a>
             </li>
             <li>

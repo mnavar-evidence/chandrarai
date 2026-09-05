@@ -47,8 +47,8 @@ export default function Footer() {
               </Link>
             </li>
             <li>
-              <a href="mailto:hello@chandrarai.art" className="hover:text-ink">
-                hello@chandrarai.art
+              <a href="mailto:chandrarai922@gmail.com" className="hover:text-ink">
+                chandrarai922@gmail.com
               </a>
             </li>
             <li>

@@ -25,7 +25,7 @@ npm run start
 - **Artwork copy**: edit `src/data/artworks.ts` (titles, stories, sizes, availability, series, medium).
 - **Courses**: edit `src/data/courses.ts`.
 - **Journal**: edit `src/data/journal.ts`.
-- **Contact**: replace WhatsApp placeholder and `hello@chandrarai.art` everywhere once mail is live.
+- **Contact**: replace WhatsApp placeholder and `chandrarai922@gmail.com` everywhere once mail is live.
 - **Enroll**: `EnrollActions` is mailto + console/alert stub — wire Stripe or your provider later (no secrets in this repo).
 
 Placeholder note: all visual artwork on the site is intentionally fake (gradients labeled as placeholders). Do not treat them as final photography.
