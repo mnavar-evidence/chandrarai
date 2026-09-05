@@ -51,7 +51,16 @@ export default function Footer() {
                 hello@chandrarai.art
               </a>
             </li>
-            <li className="text-ink-muted">WhatsApp: +91 90000 00000</li>
+            <li>
+              <a
+                href="https://wa.me/919901932981"
+                className="hover:text-ink"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                WhatsApp: +91 99019 32981
+              </a>
+            </li>
           </ul>
         </div>
       </div>

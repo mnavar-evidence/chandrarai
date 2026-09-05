@@ -33,12 +33,14 @@ export default function ContactPage() {
             </li>
             <li>
               <span className="eyebrow block">WhatsApp</span>
-              <span className="mt-1 inline-block text-base text-ink">
-                +91 90000 00000
-              </span>
-              <span className="mt-1 block text-xs text-ink-muted">
-                Placeholder number — replace before launch
-              </span>
+              <a
+                href="https://wa.me/919901932981"
+                className="mt-1 inline-block text-base text-ink hover:underline"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                +91 99019 32981
+              </a>
             </li>
           </ul>
         </div>
