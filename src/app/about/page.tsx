@@ -1,4 +1,5 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import Link from "next/link";
 
 export const metadata: Metadata = {
@@ -42,9 +43,8 @@ export default function AboutPage() {
               says enough.
             </p>
             <p>
-              Photography of finished work will replace the gradient
-              placeholders on this site. Until then, the color fields are honest
-              stand-ins for mood and temperature.
+              Real artwork photographs are replacing the earlier placeholders
+              on this site. More studio moments will follow as the gallery grows.
             </p>
           </section>
 
@@ -65,16 +65,33 @@ export default function AboutPage() {
           </section>
         </div>
 
-        <aside className="card-quiet h-fit p-8">
-          <p className="eyebrow">Visit</p>
-          <p className="mt-3 font-serif text-2xl text-ink">chandrarai.art</p>
-          <p className="mt-4 text-sm leading-relaxed text-ink-soft">
-            Domain and DNS come later. For now this is a local site you can
-            shape with real art and copy.
-          </p>
-          <Link href="/contact" className="btn-secondary mt-8">
-            Say hello
-          </Link>
+        <aside className="space-y-8">
+          <div className="overflow-hidden rounded-[1.5rem] bg-paper-warm shadow-lg shadow-ink/5">
+            <div className="relative aspect-[4/5]">
+              <Image
+                src="/studio/chandra-rai.png"
+                alt="Chandra Rai"
+                fill
+                className="object-cover object-top"
+                sizes="(max-width: 1024px) 100vw, 28rem"
+                priority
+              />
+            </div>
+            <div className="p-5">
+              <p className="font-serif text-xl text-ink">Chandra Rai</p>
+              <p className="mt-1 text-sm text-ink-muted">Artist &amp; teacher</p>
+            </div>
+          </div>
+          <div className="card-quiet p-8">
+            <p className="eyebrow">Visit</p>
+            <p className="mt-3 font-serif text-2xl text-ink">chandrarai.art</p>
+            <p className="mt-4 text-sm leading-relaxed text-ink-soft">
+              Gallery, courses, and a quiet place to write to the studio.
+            </p>
+            <Link href="/contact" className="btn-secondary mt-8">
+              Say hello
+            </Link>
+          </div>
         </aside>
       </div>
     </div>
