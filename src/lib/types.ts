@@ -12,7 +12,8 @@ export type Series =
   | "Coastal Studies"
   | "Botanical Hours"
   | "Night Windows"
-  | "Shared Roads";
+  | "Shared Roads"
+  | "Quiet Paths";
 
 export type Availability = "available" | "sold" | "reserved";
 
