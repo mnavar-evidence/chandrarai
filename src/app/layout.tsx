@@ -26,6 +26,10 @@ export const metadata: Metadata = {
   description:
     "Chandrarai is an online art studio showcasing original paintings and teaching watercolor, oil, and ink — self-paced and live. Gallery-first, calm, and warm.",
   metadataBase: new URL("https://chandrarai.art"),
+  icons: {
+    icon: [{ url: "/icon.png", type: "image/png" }, { url: "/favicon.ico" }],
+    apple: "/apple-icon.png",
+  },
   openGraph: {
     title: "Chandrarai — Online art studio",
     description:
