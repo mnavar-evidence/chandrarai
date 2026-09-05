@@ -86,7 +86,7 @@ export default function AboutPage() {
             <p className="eyebrow">Visit</p>
             <p className="mt-3 font-serif text-2xl text-ink">chandrarai.art</p>
             <p className="mt-4 text-sm leading-relaxed text-ink-soft">
-              Gallery, courses, and a quiet place to write to the studio.
+              Browse the gallery, explore a course, or write to Chandra — WhatsApp and email are on the contact page.
             </p>
             <Link href="/contact" className="btn-secondary mt-8">
               Say hello
